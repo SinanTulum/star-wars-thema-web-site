@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinan Tulum Star Wars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: black;">
+        <a class="navbar-brand lgo1" href="index.html"><img src="/swsinantulumcom/images/darthvader.png" width="60" height="60" class="d-inline-block align-top w-100">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white links21" id="a" href="/swsinantulumcom/index.html">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white links21" id="a" href="/swsinantulumcom/index.html">Hakkımda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white links21" id="a" href="/swsinantulumcom/index.html">Projelerim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white links21" id="a" href="/swsinantulumcom/index.html">Blogum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white links21" id="a" href="index.html">Mini Oyun</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" id="skor" class="nav-link links21" style="color: green;"></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="body">
+        <div class="game" id="game">
+            <div class="player" id="player"><img src="pngegg (2).png" alt=""></div>
+            <div class="alien" id="alien"><img src="alien.png" alt=""></div>
+        </div>
+    
+        <div id="result">
+            <h1>Oyun Bitti</h1>
+            <p id="score"></p>
+            <button id="btn" onclick="location.reload()">Yeniden Oyna</button>
+        </div>
+    </div>
+    <audio id="shoot" src="fireex.wav" ></audio>
+    <audio id="gameover" src="gameover.wav"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
